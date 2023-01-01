@@ -19,7 +19,7 @@ public class SpdjpaIntroApplication {
 		return new CommandLineRunner() {
 			@Override
 			public void run(String... args) throws Exception {
-
+                     // running while project started
 			}
 		};
 
