@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8f968e3-fd87-4016-8982-85b713c803d2" name="Changes" comment="initial">
+    <list default="true" id="d8f968e3-fd87-4016-8982-85b713c803d2" name="Changes" comment="git test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/SpdjpaIntroApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/SpdjpaIntroApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,9 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Jcj5B8ql25Ni2my9DszHI63oN0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -64,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672384426098</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="git test">
+      <created>1672581331718</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672581331718</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,6 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="git test" />
+    <option name="LAST_COMMIT_MESSAGE" value="git test" />
   </component>
 </project>

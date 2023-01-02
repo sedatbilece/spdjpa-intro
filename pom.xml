@@ -53,6 +53,28 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+
+			<plugin>
+				<groupId>org.liquibase</groupId>
+				<artifactId>liquibase-maven-plugin</artifactId>
+				<version>4.2.2</version>
+				<configuration>
+					<url>jdbc:mysql://localhost:3306/bookdb</url>
+					<username>root</username>
+					<password>13271327</password>
+					<outputChangeLogFile>changelog.xml</outputChangeLogFile>
+					<changeSetAuthor>JT</changeSetAuthor>
+					<changelogSchemaName>bookdb</changelogSchemaName>
+
+				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>mysql</groupId>
+						<artifactId>mysql-connector-java</artifactId>
+					</dependency>
+				</dependencies>
+			</plugin>
+
 		</plugins>
 	</build>
 
