@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8f968e3-fd87-4016-8982-85b713c803d2" name="Changes" comment="try to add liquibase (did not work)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/domain/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/repositories/AuthorRepository.java" afterDir="false" />
+    <list default="true" id="d8f968e3-fd87-4016-8982-85b713c803d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/controller/AuthorUuidController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/domain/AuthorUuid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/repositories/AuthorUuidRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/domain/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/SpdjpaIntroApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/SpdjpaIntroApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/spdjpaintro/SpdjpaIntroApplication$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/spdjpaintro/SpdjpaIntroApplication$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/spdjpaintro/SpdjpaIntroApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/spdjpaintro/SpdjpaIntroApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/spdjpaintro/bootstrap/DataInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/spdjpaintro/bootstrap/DataInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/spdjpaintro/domain/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/spdjpaintro/domain/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/spdjpaintro/repositories/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/spdjpaintro/repositories/BookRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -90,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672660567787</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add new object (Author)">
+      <created>1672667374222</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672667374222</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +112,7 @@
     <MESSAGE value="initial" />
     <MESSAGE value="git test" />
     <MESSAGE value="try to add liquibase (did not work)" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to add liquibase (did not work)" />
+    <MESSAGE value="add new object (Author)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new object (Author)" />
   </component>
 </project>

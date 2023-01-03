@@ -1,7 +1,10 @@
 package com.spring.spdjpaintro;
 
+import com.spring.spdjpaintro.domain.AuthorUuid;
 import com.spring.spdjpaintro.domain.Book;
+import com.spring.spdjpaintro.repositories.AuthorUuidRepository;
 import com.spring.spdjpaintro.repositories.BookRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,11 +18,14 @@ public class SpdjpaIntroApplication {
 	}
 
 	@Bean
-	CommandLineRunner createInitialUser(BookRepository bookRepository){
+	CommandLineRunner createInitial(BookRepository bookRepository){
+
 		return new CommandLineRunner() {
 			@Override
 			public void run(String... args) throws Exception {
-                     // running while project started
+
+
+
 			}
 		};
 
