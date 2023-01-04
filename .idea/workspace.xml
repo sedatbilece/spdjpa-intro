@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8f968e3-fd87-4016-8982-85b713c803d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/controller/AuthorUuidController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/domain/AuthorUuid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/repositories/AuthorUuidRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/SpdjpaIntroApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/SpdjpaIntroApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/spdjpaintro/SpdjpaIntroApplication$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/spdjpaintro/SpdjpaIntroApplication$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/spdjpaintro/SpdjpaIntroApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/spdjpaintro/SpdjpaIntroApplication.class" afterDir="false" />
-    </list>
+    <list default="true" id="d8f968e3-fd87-4016-8982-85b713c803d2" name="Changes" comment="add  author with UUID" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672667374222</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add  author with UUID">
+      <created>1672766392716</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672766392716</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +112,7 @@
     <MESSAGE value="git test" />
     <MESSAGE value="try to add liquibase (did not work)" />
     <MESSAGE value="add new object (Author)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new object (Author)" />
+    <MESSAGE value="add  author with UUID" />
+    <option name="LAST_COMMIT_MESSAGE" value="add  author with UUID" />
   </component>
 </project>
