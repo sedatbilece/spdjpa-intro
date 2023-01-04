@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8f968e3-fd87-4016-8982-85b713c803d2" name="Changes" comment="add  author with UUID" />
+    <list default="true" id="d8f968e3-fd87-4016-8982-85b713c803d2" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/controller/DumpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/domain/Dump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/spdjpaintro/repositories/DumpRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -93,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672766392716</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix">
+      <created>1672827701822</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672827701822</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +125,7 @@
     <MESSAGE value="try to add liquibase (did not work)" />
     <MESSAGE value="add new object (Author)" />
     <MESSAGE value="add  author with UUID" />
-    <option name="LAST_COMMIT_MESSAGE" value="add  author with UUID" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
